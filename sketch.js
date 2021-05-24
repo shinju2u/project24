@@ -74,7 +74,7 @@ function keyPressed (){
 if(keyCode === LEFT_ARROW){
 
 
-    Body.applyForce(ball.body,ball.body.position,{x:100,y:100});
+    Body.applyForce(ball,ball.position,{x:100,y:100});
 }
 
 
